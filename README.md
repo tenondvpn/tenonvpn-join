@@ -8,12 +8,15 @@
 
       git clone https://github.com/tenondvpn/tenonvpn-join.git
       or
-      wget https://github.com/tenondvpn/tenonvpn-join/archive/1.2.1.zip
+      wget https://github.com/tenondvpn/tenonvpn-join/archive/master.zip
 
 ### 2. init system, system will restart after execution， node will start automatically
 
       bash init_env.sh
+      
+### 3. Check whether it is successful. If more than 7 ports are started, it is successful!
 
+      netstat -nlp | grep net
 
 # 
 # 
@@ -29,12 +32,15 @@
   
       git clone https://github.com/tenondvpn/tenonvpn-join.git
       或者
-      wget https://github.com/tenondvpn/tenonvpn-join/archive/1.2.1.zip
+      wget https://github.com/tenondvpn/tenonvpn-join/archive/master.zip
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
       bash init_env.sh  
 
+### 3. 检查是否成功，如果启动了7个端口以上，则成功了！
+
+      netstat -nlp | grep net
     
     
 
