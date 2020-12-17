@@ -6,8 +6,6 @@
 ## Access steps
 ### 1. Download the code:
 
-      git clone https://github.com/tenondvpn/tenonvpn-join.git
-      or
       wget https://github.com/tenondvpn/tenonvpn-join/archive/master.zip
 
 ### 2. init system, system will restart after execution， node will start automatically
@@ -30,8 +28,6 @@
 
 ### 1. 下载代码： 
   
-      git clone https://github.com/tenondvpn/tenonvpn-join.git
-      或者
       wget https://github.com/tenondvpn/tenonvpn-join/archive/master.zip
    
 
