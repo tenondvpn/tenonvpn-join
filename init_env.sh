@@ -29,6 +29,8 @@ install() {
     if [[ "${release}" == "centos" ]]; then
 	sudo sh centos_env.sh
     else
+        echo "just support centos7."
+        exit 1
         sudo bash general_env.sh
     fi
 }
