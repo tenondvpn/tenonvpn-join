@@ -7,7 +7,7 @@
 
 ### 1. 下载代码： 
   
-      wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.0.zip
+      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.0.zip
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
@@ -34,7 +34,7 @@
 
 ### 1. 下载代码： 
   
-      wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.0.zip
+      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.0.zip
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
