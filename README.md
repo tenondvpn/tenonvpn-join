@@ -37,7 +37,7 @@
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
-
+<p style='color:red'>This is some red text.</p>
       unzip 5.0.0.zip && mv tenonvpn-join-5.0.0 tnet && cd tnet && sh init_env.sh min_port max_port
       
 ```diff  
