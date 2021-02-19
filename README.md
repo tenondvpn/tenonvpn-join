@@ -38,10 +38,10 @@
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
 
-      unzip 5.0.0.zip && mv tenonvpn-join-5.0.0 tnet && cd tnet && sh init_env.sh min_port max_port
+      unzip 5.0.0.zip && mv tenonvpn-join-5.0.0 tnet && cd tnet && sh init_env.sh ```diff +min_port max_port ```
       
 ```diff  
-+      其中 min_port: 开放的连续端口的最小值， max_port: 开放的连续端口的最大值
++     其中 min_port: 开放的连续端口的最小值， max_port: 开放的连续端口的最大值
 ```
       等待安装完成并重启机器
       
