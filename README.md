@@ -17,7 +17,8 @@
       
       等待安装完成并重启机器
       
-### 3. 获取挖矿查询网址
+### 3. 获取挖矿私钥和查询网址
+      sh get_private_key.sh
  
       sh get_mining_url.sh
       
@@ -46,7 +47,8 @@
 ```
       等待安装完成并重启机器
       
-### 3. 获取挖矿查询网址
+### 3. 获取挖矿私钥和查询网址
+      sh get_private_key.sh
  
       sh get_mining_url.sh
       
