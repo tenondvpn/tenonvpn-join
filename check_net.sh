@@ -25,3 +25,7 @@ if [ "$idx" -eq "10" ]; then
 fi
 iptables -F
 
+fast_net=`ps -ef | grep fast_net | grep init.d | awk -F' ' '{print $2}'`
+if [ ! -n "$fast_net" ]; then
+ /etc/rc.d/init.d/fast_net.sh &
+fi
