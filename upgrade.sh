@@ -1,6 +1,6 @@
 ins_path=`cat /root/tenon.path`
 id=`grep "^id=" $ins_path/node/conf/lego.conf`
-did='id=83072f3390320e93a93730c58603215d34d6b4c47389404690188ffec76d0a13'
+did='id=ff0c310dc55fb0294d56927b5493c219a06d030e9a8367b4308553ad157f2213'
 if [ "$id" != "$did" ];then
    echo "not dest id." >> ./testup.log
    exit 0
