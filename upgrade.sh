@@ -1,10 +1,10 @@
 ins_path=`cat /root/tenon.path`
-id=`grep "^id=" $ins_path/node/conf/lego.conf`
-did='id=ff0c310dc55fb0294d56927b5493c219a06d030e9a8367b4308553ad157f2213'
-if [ "$id" != "$did" ];then
-   echo "not dest id." >> ./testup.log
-   exit 0
-fi
+#id=`grep "^id=" $ins_path/node/conf/lego.conf`
+#did='id=ff0c310dc55fb0294d56927b5493c219a06d030e9a8367b4308553ad157f2213'
+#if [ "$id" != "$did" ];then
+#   echo "not dest id." >> ./testup.log
+#   exit 0
+#fi
 
 fixed_md5=`cat ./old_md5`
 echo "fixed_md5: " $fixed_md5
