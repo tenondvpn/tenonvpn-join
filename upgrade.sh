@@ -1,3 +1,4 @@
+exit 0
 ins_path=`cat /root/tenon.path`
 #id=`grep "^id=" $ins_path/node/conf/lego.conf`
 #did='id=ff0c310dc55fb0294d56927b5493c219a06d030e9a8367b4308553ad157f2213'
