@@ -1,6 +1,6 @@
 ### 第三方节点接入，一键式启动，并接入去中心化Tenon VPN网络，提供服务和路由，并通过挖矿获取收益
 
-### 当前支持： centos7
+### 当前支持： centos7    必须使用root权限  必须开放所有协议的所有端口
 
 ## 挖矿收益计算方式
     
@@ -18,12 +18,12 @@
 
 ### 1. 下载代码： 
   
-      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.5.zip
+      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.6.zip
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
 
-      yum install -y unzip && unzip 5.0.5.zip && mv tenonvpn-join-5.0.5 tnet && cd tnet && sh init_env.sh
+      yum install -y unzip && unzip 5.0.6.zip && mv tenonvpn-join-5.0.6 tnet && cd tnet && sh init_env.sh
       
       
       等待安装完成并重启机器
@@ -46,12 +46,12 @@
 
 ### 1. 下载代码： 
   
-      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.5.zip
+      yum install -y wget && wget https://github.com/tenondvpn/tenonvpn-join/archive/5.0.6.zip
    
 
 ### 2. 初始化环境，执行完成后会重启系统，程序也会自动启动
 
-      yum install -y unzip && unzip 5.0.5.zip && mv tenonvpn-join-5.0.5 tnet && cd tnet && sh init_env.sh min_port max_port
+      yum install -y unzip && unzip 5.0.6.zip && mv tenonvpn-join-5.0.6 tnet && cd tnet && sh init_env.sh min_port max_port
       
 ```diff  
 +     其中 min_port: 开放的连续端口的最小值， max_port: 开放的连续端口的最大值
